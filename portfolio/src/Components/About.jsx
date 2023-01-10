@@ -47,30 +47,78 @@ export default function About () {
                     transition={{ delay: .7, duration: 1}} 
                     className=" flex justify-center mt-10 md:mt-32">
                         <m.div variants={container} initial="hidden" animate="show" className=" grid grid-cols-4 gap-x-12 gap-y-8 md:gap-x-32 md:gap-y-16">
-                            <div className=" overflow-hidden">
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-javascript-plain text-neutral-300 text-4xl md:text-7xl" variants={item}></m.li>
-                            </div>
-                            <div className=" overflow-hidden">
+                            </m.div>
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-python-plain text-neutral-300 text-4xl md:text-7xl" variants={item}></m.li>
-                            </div>
-                            <div className=" overflow-hidden">
+                            </m.div>
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-html5-plain text-neutral-300 text-4xl md:text-7xl" variants={item}></m.li>
-                            </div>
-                            <div className=" overflow-hidden">
+                            </m.div>
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-react-original text-neutral-300 text-4xl md:text-7xl" variants={item}></m.li>
-                            </div>
-                            <div className=" overflow-hidden">
+                            </m.div>
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-css3-plain text-neutral-300 md:text-7xl text-4xl" variants={item}></m.li>
-                            </div>
-                            <div className=" overflow-hidden">
+                            </m.div>
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-tailwindcss-plain text-neutral-300 text-4xl md:text-7xl" variants={item}></m.li>
-                            </div>
-                            <div className=" overflow-hidden">
+                            </m.div>
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-django-plain text-neutral-300 text-4xl md:text-7xl" variants={item}></m.li>
-                            </div>
-                            <div className=" overflow-hidden">
+                            </m.div>
+                            <m.div
+                            whileTap={{
+                                scale: 1,
+                                rotate: -180,
+                                borderRadius: "100%"
+                            }}
+                            className=" overflow-hidden">
                                 <m.li className="devicon-postgresql-plain text-neutral-300 text-4xl md:text-7xl" variants={item}></m.li>
-                            </div>
+                            </m.div>
                         </m.div>
                     </m.div>
                 </div>

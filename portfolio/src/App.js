@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router';
 import './App.css';
 import { AnimatePresence } from 'framer-motion';
+import { motion as m } from "framer-motion"
 import { Link } from 'react-router-dom';
 import Main from './Components/Main';
 import Nav from './Components/Nav'
@@ -13,7 +14,14 @@ export default function App() {
     <div className="App relative">
       <div className=' absolute left-0 md:left-16 top-10 z-20'>
         <Link to='/'>
-          <p className=" bg-neutral-800 p-2 rounded-lg decoration-transparent red-color hover:text-white absolute left-12 md:text-2xl">JV</p>   
+          <m.p
+          whileHover={{ scale: 1.1, rotate: 15 }}
+          whileTap={{
+            scale: 1,
+            rotate: -180,
+            borderRadius: "100%"
+        }}
+          className=" bg-neutral-800 p-2 rounded-lg decoration-transparent red-color hover:text-white absolute left-12 md:text-2xl">JV</m.p>   
           </Link>
       </div>
       <div className=' absolute right-16 top-10'>

@@ -20,7 +20,10 @@ export default function Nav() {
                     <li className=" transition-all ease-in-out decoration-transparent red-color hover:text-white">Contact</li>
                 </Link>
                 <li>
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vTl0-yHphxwqtNPZxNmgtzPe5xXY11a8GTqIMeAt_Ty4YjKw8TVLVqyKCjm9Va8tx4yWZSPBB75bsVy/pub"
+                    target="blank">
                     <button className=" bg-transparent red-color">Resume</button>
+                    </a>
                 </li>
             </ul>
             </div>
