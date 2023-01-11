@@ -12,7 +12,7 @@ export default function Projects () {
                 animate={{ x: 0}}
                 transition={{ duration: 0.75, ease: "easeOut" }}
                 exit={{ opacity: 1 }}>
-        <div className=" bg-neutral-700 h-screen pt-28 md:pt-40 px-8 md:px-40">
+        <div className=" bg-neutral-700 h-screen pt-20 md:pt-20 2xl:pt-36 px-8 md:px-40">
             <div>
             <m.div
                 animate={{ x: "0%" }}
@@ -25,9 +25,9 @@ export default function Projects () {
                 animate={{ y: 0 }}
                 initial={{ y: "600%" }}
                 transition={{ delay: .7, duration: 1}} 
-                className=" flex justify-center mt-8 md:mt-28">
+                className=" flex justify-center mt-3 md:mt-3 2xl:mt-10">
                     <m.div variants={container} initial="hidden" animate="show" className=" relative grid grid-cols-3 ">
-                        <div className=" overflow-hidden">
+                        <div className=" overflow-hidden overflow-y-scroll">
                             <m.div
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.98 }}
