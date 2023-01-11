@@ -31,7 +31,7 @@ export default function About () {
                             animate={{ y: 0 }}
                             initial={{ y: "600%" }}
                             transition={{ delay: .7, duration: 0.5}} className=" text-left font-semibold mb-8 text-base md:text-2xl name-info">
-                            My day-to-day consists of buidling my own challenging full-stack applications to increase my skills, learning new languages like Swift & C++, and contributing to open-source projects on Github.</m.h1>
+                            My day-to-day consists of building my own challenging full-stack applications to increase my skills, learning new languages like Swift & C++, and contributing to open-source projects on Github.</m.h1>
                     </div>
                     <m.div
                     animate={{ x: "0%" }}
