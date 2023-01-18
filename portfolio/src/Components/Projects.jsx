@@ -41,9 +41,10 @@ export default function Projects () {
                             variants={item} className=" absolute left-0  w-44 h-48 md:w-96 md:h-48 bg-neutral-800 rounded-xl mx-2 md:mx-12 md:p-4 p-3">
                                 <p className=" red-color">GG</p>
                                 <h1 className=" text-xs md:text-base name-info">GG is a social app where gamers can browse games, rate, review, and track them. A full-stack app made with React and Django.</h1>
-                                <div className=" flex space-x-7 md:space-x-44 mt-8 md:mt-12">
+                                <div className=" flex space-x-12 md:space-x-56 mt-8 md:mt-12">
                                     <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://github.com/jackmviana/GG-FE2/tree/main/gg-app" target="blank">Front-End</a>
-                                    <a className=" text-xs md:text-base  transition-all ease-in hover:text-white red-color" href="https://github.com/jackmviana/GG-BE" target="blank">Back-End</a>
+                                    
+                                    <a className=" text-xs md:text-base  transition-all ease-in hover:text-white red-color" href="https://gg-tracker.vercel.app/" target="blank">Site</a>
                                 </div>
                             </m.div>
 
@@ -61,8 +62,8 @@ export default function Projects () {
                                 <p className=" red-color">Duet</p>
                                 <h1 className=" text-xs md:text-base name-info">DUET is a social app where you can make connections with others based on your taste in music. A group project made with React and Sequelize.</h1>
                                 <div className=" flex space-x-7 md:space-x-44 mt-4 md:mt-6">
-                                    <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://github.com/DuetSocial/Duet_FE" target="blank">Front End</a>
-                                    <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://github.com/DuetSocial/Duet_BE" target="blank">Back End</a>
+                                    <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://github.com/DuetSocial/Duet_FE" target="blank">Front-End</a>
+                                    <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://github.com/DuetSocial/Duet_BE" target="blank">Back-End</a>
                                 </div>
                             </m.div>
                     
@@ -81,7 +82,7 @@ export default function Projects () {
                                     <p className=" red-color">Valorant V</p>
                                     <h1 className=" text-xs md:text-base name-info">The Valorant V is an app made to learn more about Valorant's agents in a interactive way. Features include, a custom loadout, play, and shop. React app pulling data from a Valorant API.</h1>
                                     <div className=" flex space-x-12 md:space-x-56 mt-1 md:mt-1">
-                                        <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://github.com/jackmviana/Valorant-API" target="blank">Front End</a>
+                                        <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://github.com/jackmviana/Valorant-API" target="blank">Front-End</a>
                                         <a className=" text-xs md:text-base transition-all ease-in hover:text-white red-color" href="https://valorantv.netlify.app/" target="blank">Site</a>
                                     </div>
                                 </m.div>
